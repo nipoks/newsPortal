@@ -1,0 +1,24 @@
+.latest-post-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.latest-post-container img {
+    height: 218px;
+}
+
+.latest-post-name-container {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.latest-post-date-time-container {
+    display: flex;
+    justify-content: space-between;
+    color: #9E7F4F;
+    font-size: 12px;
+}

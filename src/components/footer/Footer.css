@@ -1,0 +1,45 @@
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin: 0 0 10px 10px;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+}
+
+.social-icons a {
+    display: inline-block; /* Чтобы ссылки не ломали макет */
+}
+
+.footer-links {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    font-size: 12px;
+}
+.footer-links, .footer-text, .footer-last a {
+    color: #c1b6a4;
+}
+
+.footer-last {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 0 10px 10px;
+}
+
+.qr-code {
+    width: 40px;
+    height: 40px;
+
+}

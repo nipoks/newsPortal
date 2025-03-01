@@ -1,0 +1,23 @@
+.post-list-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.post-list-spin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+    width: 100%;
+}
+
+.post-list-advertisement img {
+    width: 100%;
+    margin-bottom: 10px;
+    flex-shrink: 0;
+    height: 112px;
+    display: flex;
+    gap: 10px;
+}

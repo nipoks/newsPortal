@@ -1,0 +1,63 @@
+.comments-list-container,
+.comments-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+
+.comment-create-container {
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    width: 100%;
+}
+
+
+
+
+
+.comment-create-area-container {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    background-color: #373533;
+    padding: 10px;
+    align-items: center;
+}
+
+.comment-create-area-container Button {
+    width: 95px;
+    font-weight: 900;
+    font-size: 16px;
+    align-self: flex-start;
+}
+
+.comment-create-area-container TextArea {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.rounded-avatar {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+    border: 2px solid #F9E048;
+}
+
+.comment-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #373533;
+}
+
+.comment-message Button {
+    width: 95px;
+    font-weight: 900;
+    font-size: 16px;
+}

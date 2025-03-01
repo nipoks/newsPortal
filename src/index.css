@@ -1,0 +1,20 @@
+:root {
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0; /* Обнуляем отступы */
+}
+
+.container {
+  display: flex; /* Создаем гибкую структуру */
+  flex-direction: column; /* Располагаем элементы вертикально */
+  min-height: 100vh; /* Минимальная высота равна высоте вьюпорта */
+}
+
+.footer {
+  margin-top: auto; /* Здесь вступает в действие магия Flexbox */
+}
